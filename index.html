@@ -40,16 +40,13 @@
 		<!-- About Me -->
 			<div id="main">
 
-				<header class="major container 75%" style="width: 65%">
+				<header class="major container 75%" style="width: min(1000px, 75%)">
 					<h3>About</h3>
 					<div style = "margin-top: 40px; font-size: max(13px, 2vmin); line-height: max(16px, 3vmin)"> 
-						I'm a passionate programmer with background in machine learning and game development. I 
-						received my BS in computer science from the University of Pittsburgh in 2021, and
-						have since been a software developer at Carnegie Mellon University's Software Engineering Institute.
+						I'm a passionate programmer with background in machine learning and game development. I received my BS in computer science from the University of Pittsburgh in 2021, and have since been a software developer at Carnegie Mellon University's Software Engineering Institute.
 						<br />
 						<br />
-						My main interests include working on cool programming projects with awesome teams, playing MMOs, learning to cook, and playing the guitar.
-						My primary programming languages are Python and Java.
+						My main interests include working on cool programming projects with awesome teams, playing MMOs, learning to cook, and playing the guitar. My primary programming languages are Python and Java.
 						<br />
 						<br />
 						You can peruse my resume <a target="_blank" href="joaks_resume13.pdf">here</a> and see some details and demos of some of my projects below.
@@ -59,7 +56,7 @@
 
 		<!-- Projects -->
 			<div id="footer">
-				<header class="major container 75%" style="width: 65%">
+				<header class="major container 75%" style="width: min(1000px, 75%)">
 					<h3>Projects</h3>
 					<br /> <br />
 
@@ -73,24 +70,19 @@
 						</iframe>
 						<br/>
 						<br/>
-						Spacedust is an android game with a simple concept: you control a spaceship lost in deep space, and every 
-						other spaceship wants to blow you up until you're nothing but spacedust. 
+						Spacedust is an android game with a simple concept: you control a spaceship lost in deep space, and every other spaceship wants to blow you up until you're nothing but spacedust. 
 						<br/>
 						<br/>
-						This app was built upon OpenGL ES, a subset of OpenGL meant for mobile and embedded systems. 
-						It was a short project, but it taught me how to create a game with mobile in mind, especially how differently 
-						controls work from PC. I programmed the joysticks myself, working with simple touch/hold input data from Android. 
-						Everything else seen here - textures, rendering pipeline/shaders, basic physics and lighting - is also custom made.
+						This app was built upon OpenGL ES, a subset of OpenGL meant for mobile and embedded systems. It was a short project, but it taught me how to create a game with mobile in mind, especially how differently controls work from PC. I programmed the joysticks myself, working with simple touch/hold input data from Android. Everything else seen here - textures, rendering pipeline/shaders, basic physics and lighting - is also custom made.
 						<br/>
 						<br/>
-						I'd like to iterate on this project with new prototypes containing more than one level, some sort of ship 
-						progression/customizability, more enemy variety, some sounds, some more level design, some particles and 
-						explosions, and maybe some more fleshed out story/missions.
+						I'd like to iterate on this project with new prototypes containing more than one level, some sort of ship progression/customizability, more enemy variety, some sounds, some more level design, some particles and explosions, and maybe some more fleshed out story/missions.
 						<br/>
 						<br/>
 						<ul class="icons">
 							<li><a href="https://github.com/JacobOaks/spacedust" target="_blank" class="icon fa-github"><span class="label">Github</span></a></li>
 						</ul>
+						<br/>
 					</div>
 
 					<!-- Ambulare -->
@@ -103,26 +95,19 @@
 						</iframe>
 						<br/>
 						<br/>
-						Ambulare is a fun little side-scrolling engine that I built from scratch on top of LWJGL. This demo shows 
-						off most of the capabilities, including a custom physics engine, a sound system, lighting systems, animations, 
-						and menus. All of the textures and sounds are homemade as well.
+						Ambulare is a fun little side-scrolling engine that I built from scratch on top of LWJGL. This demo shows off most of the capabilities, including a custom physics engine, a sound system, lighting systems, animations, and menus. All of the textures and sounds are homemade as well.
 						<br/>
 						<br/>
-						One capability not shown in this demo is the custom readable serialization format I created in order to allow 
-						the idea of "stories". A story consists of multiple interconnected levels, such as Dank Cellar and Galen Forest 
-						shown in the demo. By understanding the simple serialization format read in by the program, entire stories 
-						consisting of custom levels, blocks, textures, backgrounds, foliage, etc. can be created without touching any code at all.
+						One capability not shown in this demo is the custom readable serialization format I created in order to allow the idea of "stories". A story consists of multiple interconnected levels, such as Dank Cellar and Galen Forest shown in the demo. By understanding the simple serialization format read in by the program, entire stories consisting of custom levels, blocks, textures, backgrounds, foliage, etc. can be created without touching any code at all.
 						<br/>
 						<br/>
-						In an alternate universe where I had unlimited time I would extend this project by adding many more levels, 
-						implementing enemies and combat, inventory and equipment systems, game saving/loading, and some sort of journal/quest 
-						system - all of which would be fully customizable for any aspiring custom story creator. I would also extend the 
-						soundscape to include homemade music and ambient noises.
+						In an alternate universe where I had unlimited time I would extend this project by adding many more levels, implementing enemies and combat, inventory and equipment systems, game saving/loading, and some sort of journal/quest system - all of which would be fully customizable for any aspiring custom story creator. I would also extend the soundscape to include homemade music and ambient noises.
 						<br/>
 						<br/>
 						<ul class="icons">
 							<li><a href="https://github.com/JacobOaks/ambulare" target="_blank" class="icon fa-github"><span class="label">Github</span></a></li>
 						</ul>
+						<br/>
 					</div>
 
 					<!-- GeoArt -->
@@ -131,13 +116,7 @@
 						GeoArt is a iOS app that was made for Steelhacks 2019. The project won second place.
 						<br/>
 						<br/>
-						The app uses a devices's location to create a unique piece of art. It does this by processing each 
-						digit of the devices's longitude and latitude as different parameters. For example, one digit may 
-						represent one shape's size, while another may represent the blue component of the piece's background 
-						color. The nature of the algorithm ensures that each piece of art is unique to its longitude and 
-						latitude. Additionally, since locations that are close together share many of the greater digits of 
-						latitude and longitude, the generated pieces of art for locations that are nearby each other - 
-						while still unique - should share resemblance proportional to how nearby they are.
+						The app uses a devices's location to create a unique piece of art. It does this by processing each digit of the devices's longitude and latitude as different parameters. For example, one digit may represent one shape's size, while another may represent the blue component of the piece's background color. The nature of the algorithm ensures that each piece of art is unique to its longitude and latitude. Additionally, since locations that are close together share many of the greater digits of latitude and longitude, the generated pieces of art for locations that are nearby each other - while still unique - should share resemblance proportional to how nearby they are.
 						<br/>
 						<br/>
 						Here are two examples of pieces of art from completely separate areas of the world:
@@ -153,22 +132,16 @@
 						<img src="images/geoart2.png" style="width: min(200px, 40%)"></img>
 						<br/>
 						<br/>
-						If this project were done over a timespan longer than a weekend, more time could have been spent on attemping 
-						other, more interesting components of an art piece to generate, rather than just simple polygons and colors.
+						If this project were done over a timespan longer than a weekend, more time could have been spent on attemping other, more interesting components of an art piece to generate, rather than just simple polygons and colors.
 						<br/>
 						<br/>
 						There are a couple practical applications we had in mind for this app.
 						<br/>
 						<br/>
-						For one, it would be very cool to have one's background set to the artwork corresponding to their current 
-						location. Their phone's background would change as the user went about their daily life, and the user would 
-						begin to associate places with specific pieces of art. Seeing what piece of art awaits them could be added to 
-						list of excitements involved in a user's traveling to a new place.
+						For one, it would be very cool to have one's background set to the artwork corresponding to their current location. Their phone's background would change as the user went about their daily life, and the user would begin to associate places with specific pieces of art. Seeing what piece of art awaits them could be added to list of excitements involved in a user's traveling to a new place.
 						<br/>
 						<br/>
-						Some other folks who have seen this project have also noted how it could be used for security purposes or 
-						proof of location purposes. Having obtained and saved a specific piece of art could prove to somebody that 
-						the user was in a certain location that they were supposed to be in.
+						Some other folks who have seen this project have also noted how it could be used for security purposes or proof of location purposes. Having obtained and saved a specific piece of art could prove to somebody that the user was in a certain location that they were supposed to be in.
 						<br/>
 						<br/>
 						<ul class="icons">
@@ -179,8 +152,7 @@
 
 				<!-- Template Info -->
 				<ul class="copyright" style="font-size: max(13px, 2vmin); line-height: max(16px, 3vmin); margin: 40px 17vw">
-					This template was modified from the one found <a href="https://www.themezy.com/free-website-templates/47-free-directive-responsive-website-template#licenses-popup">here</a>.
-					It was licensed under the creative commons license granting permission for all personal and commersial uses
+					This template was modified from the one found <a href="https://www.themezy.com/free-website-templates/47-free-directive-responsive-website-template#licenses-popup">here</a>. It was licensed under the creative commons license granting permission for all personal and commersial uses
 				</ul>
 			</div>
 	</body>
