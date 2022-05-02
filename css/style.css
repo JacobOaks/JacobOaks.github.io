@@ -616,7 +616,7 @@
 		background-repeat: repeat-x,						repeat,					no-repeat;
 		background-size: 3200px 460px,					auto,					cover;
 		color: rgba(255, 255, 255, 0.8);
-		padding: 5vmin 0 14vh 0;
+		padding: 50px 0 14vh 0;
 		position: relative;
 		text-align: center;
 	}
@@ -660,7 +660,7 @@
 		}
 
 		#header h1 {
-			font-size: max(22px, 6vmin);
+			font-size: max(25px, 6vmin);
 			margin: 0;
 		}
 
